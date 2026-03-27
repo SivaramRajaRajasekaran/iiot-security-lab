@@ -5,6 +5,11 @@ services:
     ports:
       - "1883:1883"
       - "9001:9001"
+    volumes:
+      - ./mosquitto/mosquitto.conf:/mosquitto/config/mosquitto.conf
+      - ./mosquitto/passwd:/mosquitto/config/passwd
+      - mosquitto_data:/mosquitto/data
+      - mosquitto_log:/mosquitto/log
 
   nodered:
     image: nodered/node-red
@@ -57,3 +62,5 @@ volumes:
   nodered_data:
   influxdb_data:
   grafana_data:
+  mosquitto_data:
+  mosquitto_log:

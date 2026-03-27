@@ -20,8 +20,8 @@
         "rap": true,
         "rh": 0,
         "inputs": 0,
-        "x": 70,
-        "y": 560,
+        "x": 110,
+        "y": 920,
         "wires": [
             [
                 "bc91313a5470efe3"
@@ -41,7 +41,7 @@
         "finalize": "",
         "libs": [],
         "x": 790,
-        "y": 140,
+        "y": 320,
         "wires": [
             [
                 "12a3f06a14da033d"
@@ -69,7 +69,7 @@
         "value": "payload",
         "valueType": "msg",
         "x": 1130,
-        "y": 140,
+        "y": 320,
         "wires": []
     },
     {
@@ -85,7 +85,7 @@
         "finalize": "",
         "libs": [],
         "x": 810,
-        "y": 260,
+        "y": 440,
         "wires": [
             [
                 "2958f114ef23a055",
@@ -98,7 +98,7 @@
         "type": "ui-text",
         "z": "b722b932422c7e6e",
         "group": "e7d72e26a069637b",
-        "order": 5,
+        "order": 4,
         "width": 0,
         "height": 0,
         "name": "Temperature",
@@ -114,7 +114,7 @@
         "value": "payload",
         "valueType": "msg",
         "x": 1150,
-        "y": 260,
+        "y": 440,
         "wires": []
     },
     {
@@ -130,7 +130,7 @@
         "finalize": "",
         "libs": [],
         "x": 790,
-        "y": 440,
+        "y": 620,
         "wires": [
             [
                 "c0a77a33f4d57d27"
@@ -142,7 +142,7 @@
         "type": "ui-text",
         "z": "b722b932422c7e6e",
         "group": "e7d72e26a069637b",
-        "order": 4,
+        "order": 3,
         "width": 0,
         "height": 0,
         "name": "Count",
@@ -158,7 +158,7 @@
         "value": "payload",
         "valueType": "msg",
         "x": 1130,
-        "y": 440,
+        "y": 620,
         "wires": []
     },
     {
@@ -174,7 +174,7 @@
         "finalize": "",
         "libs": [],
         "x": 850,
-        "y": 2580,
+        "y": 2760,
         "wires": [
             [
                 "6b7d4d2ad3ff8945",
@@ -198,7 +198,7 @@
         "type": "ui-text",
         "z": "b722b932422c7e6e",
         "group": "e7d72e26a069637b",
-        "order": 3,
+        "order": 5,
         "width": 0,
         "height": 0,
         "name": "Downtime",
@@ -223,7 +223,7 @@
         "z": "b722b932422c7e6e",
         "name": "Temp",
         "group": "e7d72e26a069637b",
-        "order": 6,
+        "order": 2,
         "value": "payload",
         "valueType": "msg",
         "width": 3,
@@ -266,7 +266,7 @@
         "styleGlow": false,
         "className": "",
         "x": 1130,
-        "y": 360,
+        "y": 540,
         "wires": [
             []
         ]
@@ -276,7 +276,7 @@
         "type": "ui-text",
         "z": "b722b932422c7e6e",
         "group": "e7d72e26a069637b",
-        "order": 2,
+        "order": 6,
         "width": 0,
         "height": 0,
         "name": "Availability",
@@ -307,8 +307,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 300,
-        "y": 560,
+        "x": 340,
+        "y": 920,
         "wires": [
             [
                 "519049681a0f42e0",
@@ -323,7 +323,8 @@
                 "53a3aa4efee76a29",
                 "00ed01e9d97ae29c",
                 "017f149798ae226e",
-                "bd0ba42e9a0509db"
+                "bd0ba42e9a0509db",
+                "5dccb91ec46aa73f"
             ]
         ]
     },
@@ -358,7 +359,7 @@
         "finalize": "",
         "libs": [],
         "x": 790,
-        "y": 620,
+        "y": 800,
         "wires": [
             [
                 "8799d85c936930ec"
@@ -371,7 +372,7 @@
         "z": "b722b932422c7e6e",
         "group": "8fe3834f406f74b5",
         "order": 1,
-        "width": 0,
+        "width": 3,
         "height": 0,
         "name": "Status",
         "label": "Status",
@@ -386,7 +387,7 @@
         "value": "payload",
         "valueType": "msg",
         "x": 1130,
-        "y": 620,
+        "y": 800,
         "wires": []
     },
     {
@@ -402,7 +403,7 @@
         "finalize": "",
         "libs": [],
         "x": 810,
-        "y": 740,
+        "y": 920,
         "wires": [
             [
                 "e60a0033b28d4c29",
@@ -416,7 +417,7 @@
         "z": "b722b932422c7e6e",
         "group": "8fe3834f406f74b5",
         "order": 4,
-        "width": 0,
+        "width": 3,
         "height": 0,
         "name": "Temperature",
         "label": "Temperature",
@@ -431,7 +432,7 @@
         "value": "payload",
         "valueType": "msg",
         "x": 1150,
-        "y": 740,
+        "y": 920,
         "wires": []
     },
     {
@@ -447,7 +448,7 @@
         "finalize": "",
         "libs": [],
         "x": 790,
-        "y": 920,
+        "y": 1100,
         "wires": [
             [
                 "2208121d0e104942"
@@ -460,7 +461,7 @@
         "z": "b722b932422c7e6e",
         "group": "8fe3834f406f74b5",
         "order": 3,
-        "width": 0,
+        "width": 3,
         "height": 0,
         "name": "Count",
         "label": "Production Count",
@@ -475,7 +476,7 @@
         "value": "payload",
         "valueType": "msg",
         "x": 1130,
-        "y": 920,
+        "y": 1100,
         "wires": []
     },
     {
@@ -527,7 +528,7 @@
         "styleGlow": false,
         "className": "",
         "x": 1130,
-        "y": 840,
+        "y": 1020,
         "wires": [
             []
         ]
@@ -545,7 +546,7 @@
         "finalize": "",
         "libs": [],
         "x": 790,
-        "y": 1200,
+        "y": 1380,
         "wires": [
             [
                 "1d9416f18b38d8a8"
@@ -573,7 +574,7 @@
         "value": "payload",
         "valueType": "msg",
         "x": 1130,
-        "y": 1200,
+        "y": 1380,
         "wires": []
     },
     {
@@ -589,7 +590,7 @@
         "finalize": "",
         "libs": [],
         "x": 810,
-        "y": 1320,
+        "y": 1500,
         "wires": [
             [
                 "06aea59c30c9f7cb",
@@ -618,7 +619,7 @@
         "value": "payload",
         "valueType": "msg",
         "x": 1150,
-        "y": 1320,
+        "y": 1500,
         "wires": []
     },
     {
@@ -634,7 +635,7 @@
         "finalize": "",
         "libs": [],
         "x": 790,
-        "y": 1500,
+        "y": 1680,
         "wires": [
             [
                 "05ce15e07c953d62"
@@ -662,7 +663,7 @@
         "value": "payload",
         "valueType": "msg",
         "x": 1130,
-        "y": 1500,
+        "y": 1680,
         "wires": []
     },
     {
@@ -714,7 +715,7 @@
         "styleGlow": false,
         "className": "",
         "x": 1130,
-        "y": 1420,
+        "y": 1600,
         "wires": [
             []
         ]
@@ -732,7 +733,7 @@
         "finalize": "",
         "libs": [],
         "x": 790,
-        "y": 1720,
+        "y": 1900,
         "wires": [
             [
                 "3a1b81eb6dd5c098"
@@ -760,7 +761,7 @@
         "value": "payload",
         "valueType": "msg",
         "x": 1130,
-        "y": 1720,
+        "y": 1900,
         "wires": []
     },
     {
@@ -776,7 +777,7 @@
         "finalize": "",
         "libs": [],
         "x": 810,
-        "y": 1840,
+        "y": 2020,
         "wires": [
             [
                 "7ecd32063159ad1b",
@@ -789,7 +790,7 @@
         "type": "ui-text",
         "z": "b722b932422c7e6e",
         "group": "60e00b0742cf0cd3",
-        "order": 2,
+        "order": 4,
         "width": 0,
         "height": 0,
         "name": "Temperature",
@@ -805,7 +806,7 @@
         "value": "payload",
         "valueType": "msg",
         "x": 1150,
-        "y": 1840,
+        "y": 2020,
         "wires": []
     },
     {
@@ -821,7 +822,7 @@
         "finalize": "",
         "libs": [],
         "x": 790,
-        "y": 2020,
+        "y": 2200,
         "wires": [
             [
                 "b0835bc2d85e683b"
@@ -849,7 +850,7 @@
         "value": "payload",
         "valueType": "msg",
         "x": 1130,
-        "y": 2020,
+        "y": 2200,
         "wires": []
     },
     {
@@ -858,7 +859,7 @@
         "z": "b722b932422c7e6e",
         "name": "Temp",
         "group": "60e00b0742cf0cd3",
-        "order": 5,
+        "order": 2,
         "value": "payload",
         "valueType": "msg",
         "width": 3,
@@ -901,7 +902,7 @@
         "styleGlow": false,
         "className": "",
         "x": 1130,
-        "y": 1940,
+        "y": 2120,
         "wires": [
             []
         ]
@@ -952,7 +953,7 @@
         "z": "b722b932422c7e6e",
         "group": "8fe3834f406f74b5",
         "order": 5,
-        "width": 0,
+        "width": 3,
         "height": 0,
         "name": "Downtime",
         "label": "Downtime(S)",
@@ -1039,7 +1040,7 @@
         "type": "ui-text",
         "z": "b722b932422c7e6e",
         "group": "60e00b0742cf0cd3",
-        "order": 6,
+        "order": 5,
         "width": 0,
         "height": 0,
         "name": "Downtime",
@@ -1084,7 +1085,7 @@
         "z": "b722b932422c7e6e",
         "group": "8fe3834f406f74b5",
         "order": 6,
-        "width": 0,
+        "width": 3,
         "height": 0,
         "name": "Availability",
         "label": "Availability(%)",
@@ -1171,7 +1172,7 @@
         "type": "ui-text",
         "z": "b722b932422c7e6e",
         "group": "60e00b0742cf0cd3",
-        "order": 4,
+        "order": 6,
         "width": 0,
         "height": 0,
         "name": "Availability",
@@ -1209,6 +1210,89 @@
                 "34bf2a3897147fb1"
             ]
         ]
+    },
+    {
+        "id": "5dccb91ec46aa73f",
+        "type": "function",
+        "z": "b722b932422c7e6e",
+        "name": "IDS ENGINE",
+        "func": "// ══════════════════════════════════════════════════════════\n// OT-IDS ENGINE — Intrusion Detection System\n// Checks every incoming MQTT message against security rules\n// Triggers alerts when attacks are detected\n// ══════════════════════════════════════════════════════════\n\nconst data = msg.payload;\nconst mid = data.machine_id;\nconst now = Date.now();\n\n// ── Configuration ─────────────────────────────────────────\n\n// Only these 4 machines are legitimate in our system\n// Any other machine_id is an intruder\nconst VALID_MACHINES = [\n    'machine1', 'machine2', 'machine3', 'machine4'\n];\n\n\n// From recon we saw normal range is 30-80°C\n// Below 28°C when ON = likely injection attack\n// Above 85°C = dangerous overheating OR spoofed high value\nconst TEMP_MIN_ON = 28;\nconst TEMP_MAX = 85;\n\n// Normal rate = 4 machines × 1 msg per 3s = ~1.3 msg/s\n// Flood threshold = if we see more than 10 msgs in 3s\n// that's 7x normal rate — definitely a flood\nconst FLOOD_THRESHOLD = 10;\nconst FLOOD_WINDOW_MS = 3000;\n\n// Real machines start from 0 and increment by 1-6 per cycle\n// Attack 1 sends random counts between 9000-9999\n// If production_count jumps to >8000 suddenly it's suspicious\nconst SUSPICIOUS_COUNT = 8000;\n\n// ── Rate tracking (stored in flow context) ────────────────\n\n// We need to track message timestamps across multiple messages\n// flow context persists between messages unlike local variables\nlet messageTimestamps = flow.get('ids_timestamps') || [];\n\n// Add current timestamp\nmessageTimestamps.push(now);\n\n// Keep only timestamps within the flood window\nmessageTimestamps = messageTimestamps.filter(\n    t => now - t < FLOOD_WINDOW_MS\n);\n\n// Save back to flow context\nflow.set('ids_timestamps', messageTimestamps);\n\nconst messagesInWindow = messageTimestamps.length;\n\n// ── Alert builder ─────────────────────────────────────────\nfunction buildAlert(type, severity, machine, detail) {\n    return {\n        type: type,\n        severity: severity,  // LOW, MEDIUM, HIGH, CRITICAL\n        machine_id: machine,\n        detail: detail,\n        timestamp: new Date().toISOString(),\n        raw_payload: data\n    };\n}\n\n// ── Rule 1: Unknown Machine ID ────────────────────────────\n// Catches Attack 3 spoofing and ghost machines\n// Any message from an unrecognised machine_id is suspicious\nif (!VALID_MACHINES.includes(mid)) {\n    const alert = buildAlert(\n        'UNKNOWN_MACHINE_ID',\n        'HIGH',\n        mid,\n        `Unknown machine_id detected: \"${mid}\". ` +\n        `Valid IDs are: ${VALID_MACHINES.join(', ')}`\n    );\n    node.warn(`[IDS] ALERT: ${alert.type} — ${alert.detail}`);\n    return { payload: alert, topic: 'ids/alert' };\n}\n\n// ── Rule 2: Temperature Out of Range ──────────────────────\n// Catches Attack 1 data injection\n// When machine is ON, temperature should be in normal range\n// Suspiciously low temp when ON = attacker hiding overheating\n// Suspiciously high temp = dangerous condition or spoofed value\nif (data.status === 'ON') {\n    if (data.temperature < TEMP_MIN_ON) {\n        const alert = buildAlert(\n            'TEMPERATURE_ANOMALY',\n            'HIGH',\n            mid,\n            `Temperature ${data.temperature}°C is suspiciously ` +\n            `LOW for an ON machine. ` +\n            `Minimum expected: ${TEMP_MIN_ON}°C. ` +\n            `Possible data injection attack.`\n        );\n        node.warn(`[IDS] ALERT: ${alert.type} — ${alert.detail}`);\n        return { payload: alert, topic: 'ids/alert' };\n    }\n}\n\nif (data.temperature > TEMP_MAX) {\n    const alert = buildAlert(\n        'TEMPERATURE_CRITICAL',\n        'CRITICAL',\n        mid,\n        `Temperature ${data.temperature}°C exceeds ` +\n        `maximum threshold of ${TEMP_MAX}°C. ` +\n        `Possible overheating or spoofed high value.`\n    );\n    node.warn(`[IDS] ALERT: ${alert.type} — ${alert.detail}`);\n    return { payload: alert, topic: 'ids/alert' };\n}\n\n// ── Rule 3: Message Flood Detection ───────────────────────\n// Catches Attack 2 flooding\n// We count how many messages arrived in the last 3 seconds\n// If it exceeds our threshold, it's a flood attack\nif (messagesInWindow > FLOOD_THRESHOLD) {\n    // WHY rate limiting alerts:\n    // During a flood we'd generate hundreds of alerts per second\n    // We only alert once per 5 seconds to avoid alert flooding\n    const lastFloodAlert = flow.get('last_flood_alert') || 0;\n    if (now - lastFloodAlert > 5000) {\n        flow.set('last_flood_alert', now);\n        const alert = buildAlert(\n            'MESSAGE_FLOOD',\n            'CRITICAL',\n            mid,\n            `${messagesInWindow} messages received in ` +\n            `${FLOOD_WINDOW_MS}ms window. ` +\n            `Normal rate is ~4 messages per 3 seconds. ` +\n            `Possible DoS flood attack.`\n        );\n        node.warn(`[IDS] ALERT: ${alert.type} — ${alert.detail}`);\n        return { payload: alert, topic: 'ids/alert' };\n    }\n    return null; // suppress duplicate flood alerts\n}\n\n// ── Rule 4: Suspicious Production Count ───────────────────\n// Catches the fake 9000+ counts from Attack 1\n// Real machines start from 0 and increment gradually\n// A sudden jump to thousands is a sign of injected data\nif (data.production_count > SUSPICIOUS_COUNT) {\n    const alert = buildAlert(\n        'SUSPICIOUS_PRODUCTION_COUNT',\n        'MEDIUM',\n        mid,\n        `Production count ${data.production_count} is ` +\n        `suspiciously high. ` +\n        `Expected gradual increment from 0. ` +\n        `Possible injected data.`\n    );\n    node.warn(`[IDS] ALERT: ${alert.type} — ${alert.detail}`);\n    return { payload: alert, topic: 'ids/alert' };\n}\n\n// ── No threats detected ───────────────────────────────────\n// Return null = message is clean, no alert needed\nreturn null;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 810,
+        "y": 160,
+        "wires": [
+            [
+                "9acfa897e1f73183",
+                "8d5e235b45915373"
+            ]
+        ]
+    },
+    {
+        "id": "e2afbad6a155eb03",
+        "type": "ui-notification",
+        "z": "b722b932422c7e6e",
+        "ui": "296cf9f776620b90",
+        "position": "top right",
+        "colorDefault": true,
+        "color": "#000000",
+        "displayTime": "15",
+        "showCountdown": true,
+        "outputs": 1,
+        "allowDismiss": true,
+        "dismissText": "Close",
+        "allowConfirm": false,
+        "confirmText": "Confirm",
+        "raw": false,
+        "className": "",
+        "name": "Security Alert",
+        "x": 1150,
+        "y": 160,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "9acfa897e1f73183",
+        "type": "function",
+        "z": "b722b932422c7e6e",
+        "name": "Format Alert",
+        "func": "const alert = msg.payload;\n\nconst icons = {\n  'CRITICAL': '🚨',\n  'HIGH': '⚠️',\n  'MEDIUM': '🔶',\n  'LOW': 'ℹ️'\n};\n\nconst icon = icons[alert.severity] || '⚠️';\nconst time = new Date(alert.timestamp).toLocaleTimeString();\n\n// Short concise messages that fit the popup naturally\nconst shortMessages = {\n  'TEMPERATURE_ANOMALY': `Temp too low on ${alert.machine_id} — possible injection`,\n  'TEMPERATURE_CRITICAL': `Critical temp on ${alert.machine_id} — check immediately`,\n  'MESSAGE_FLOOD': `Flood attack detected — ${alert.machine_id}`,\n  'SUSPICIOUS_PRODUCTION_COUNT': `Fake count detected on ${alert.machine_id}`,\n  'UNKNOWN_MACHINE_ID': `Unknown machine \"${alert.machine_id}\" detected`\n};\n\nconst shortMsg = shortMessages[alert.type] || alert.detail;\n\nmsg.payload = `${icon} [${alert.severity}] ${shortMsg} | ${time}`;\n\nmsg.ui_control = {\n  colour: alert.severity === 'CRITICAL' ? '#c0392b' :\n    alert.severity === 'HIGH' ? '#e67e22' :\n      alert.severity === 'MEDIUM' ? '#f39c12' : '#2980b9'\n};\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 990,
+        "y": 160,
+        "wires": [
+            [
+                "e2afbad6a155eb03"
+            ]
+        ]
+    },
+    {
+        "id": "8d5e235b45915373",
+        "type": "influxdb out",
+        "z": "b722b932422c7e6e",
+        "influxdb": "565854b8a62ccf9e",
+        "name": "Save Alert",
+        "measurement": "security_alerts",
+        "precision": "",
+        "retentionPolicy": "",
+        "database": "database",
+        "precisionV18FluxV20": "ms",
+        "retentionPolicyV18Flux": "",
+        "org": "factory",
+        "bucket": "machine_data",
+        "x": 990,
+        "y": 80,
+        "wires": []
     },
     {
         "id": "d6290852d9105eb8",
@@ -1275,7 +1359,7 @@
         "type": "ui-group",
         "name": "Machine 2",
         "page": "4feae25fbcc1dc77",
-        "width": 6,
+        "width": 3,
         "height": 1,
         "order": 2,
         "showTitle": true,
@@ -1289,7 +1373,7 @@
         "type": "ui-group",
         "name": "Machine 3",
         "page": "4feae25fbcc1dc77",
-        "width": 6,
+        "width": 3,
         "height": 1,
         "order": 3,
         "showTitle": true,
@@ -1303,7 +1387,7 @@
         "type": "ui-group",
         "name": "Machine 4",
         "page": "4feae25fbcc1dc77",
-        "width": 6,
+        "width": 3,
         "height": 1,
         "order": 4,
         "showTitle": true,
@@ -1311,6 +1395,26 @@
         "visible": "true",
         "disabled": "false",
         "groupType": "default"
+    },
+    {
+        "id": "296cf9f776620b90",
+        "type": "ui-base",
+        "name": "My Dashboard",
+        "path": "/dashboard",
+        "appIcon": "",
+        "includeClientData": true,
+        "acceptsClientConfig": [
+            "ui-notification",
+            "ui-control"
+        ],
+        "showPathInSidebar": false,
+        "headerContent": "page",
+        "navigationStyle": "default",
+        "titleBarStyle": "default",
+        "showReconnectNotification": true,
+        "notificationDisplayTime": 1,
+        "showDisconnectNotification": true,
+        "allowInstall": false
     },
     {
         "id": "4feae25fbcc1dc77",
@@ -1349,26 +1453,6 @@
         "disabled": "false"
     },
     {
-        "id": "296cf9f776620b90",
-        "type": "ui-base",
-        "name": "My Dashboard",
-        "path": "/dashboard",
-        "appIcon": "",
-        "includeClientData": true,
-        "acceptsClientConfig": [
-            "ui-notification",
-            "ui-control"
-        ],
-        "showPathInSidebar": false,
-        "headerContent": "page",
-        "navigationStyle": "default",
-        "titleBarStyle": "default",
-        "showReconnectNotification": true,
-        "notificationDisplayTime": 1,
-        "showDisconnectNotification": true,
-        "allowInstall": false
-    },
-    {
         "id": "a88b3fbb3ea9cc5b",
         "type": "ui-theme",
         "name": "Default Theme",
@@ -1388,7 +1472,7 @@
         }
     },
     {
-        "id": "eea8e6b420baba25",
+        "id": "c5b02c2b4698f13a",
         "type": "global-config",
         "env": [],
         "modules": {
