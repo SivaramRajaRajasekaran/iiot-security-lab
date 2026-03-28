@@ -37,7 +37,7 @@ A fully containerised Industry 4.0 monitoring system simulating 4 industrial mac
 #### 1 — Clone the repository
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/industry4-monitoring-system.git
+git clone https://github.com/SivaramRajaRajasekaran/iiot-security-lab.git
 cd industry4-monitoring-system
 ```
 
