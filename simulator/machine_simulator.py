@@ -41,7 +41,7 @@ broker = "mosquitto"
 port = 1883
 
 client = mqtt.Client()
-client.username_pw_set("simulator", "simulator123")
+# client.username_pw_set("simulator", "simulator123")
 client.connect(broker, port, 60)
 
 print("Simulator started — sending data for 4 machines...")

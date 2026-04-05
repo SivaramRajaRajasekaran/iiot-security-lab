@@ -15,7 +15,15 @@ PORT = 1883
 # so it uses localhost (which maps to the Mosquitto port we exposed: 1883:1883)
 
 client = mqtt.Client(client_id="rogue_attacker_001")
-client.username_pw_set("simulator", "simulator123")
+
+# ─────────────────────────────────────────────────────────────────────────────
+# PHASE 2 ONLY: If you have enabled authentication in mosquitto.conf,
+# uncomment the line below and use the credentials you created.
+# In Phase 1 (default), this line must stay commented out —
+# the attack works BECAUSE no credentials are required.
+# ─────────────────────────────────────────────────────────────────────────────
+# client.username_pw_set("simulator", "your_password_here")
+
 client.connect(BROKER, PORT, 60)
 
 print("=" * 60)
